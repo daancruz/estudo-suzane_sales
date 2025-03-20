@@ -5,9 +5,10 @@
 @import url('banner.css');
 @import url('buttons.css');
 @import url('consultas.css');
-@import url('navbar.css');
-@import url('sobre.css');
 @import url('consultorio.css');
+@import url('navbar.css');
+@import url('noticias.css');
+@import url('sobre.css');
 
 :root {
 
