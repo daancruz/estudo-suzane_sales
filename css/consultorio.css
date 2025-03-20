@@ -3,3 +3,7 @@
     font-weight: bold;
     color: var(--color2);
 }
+
+.consultorio strong {
+    color: var(--color3);
+}
