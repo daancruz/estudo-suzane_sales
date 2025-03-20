@@ -1,0 +1,26 @@
+/* BOTÕES */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 45px;
+    border-radius: 22px;
+}
+
+.btn.btn-rosa {
+    color: #FFF;
+    background-color: var(--color5);
+}
+
+.btn.btn-waze {
+    color: #FFF;
+    background-color: #0BAEDC;
+    font-weight: 600;
+}
+
+.btn.btn-google {
+    color: #FFF;
+    background-color: #511294;
+    font-weight: 600;
+}

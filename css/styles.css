@@ -1,6 +1,17 @@
+/* GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* ESTILOS CSS */
+@import url('banner.css');
+@import url('buttons.css');
+@import url('consultas.css');
+@import url('navbar.css');
+@import url('sobre.css');
+@import url('consultorio.css');
+
 :root {
+
+/* VARIÁVEIS */
     --color1: #FBFBFB;
     --color2: #4A7866;
     --color3: #6D6D6D;
@@ -12,120 +23,4 @@
 
     --montserrat: "montserrat", sans-serif;
     --roboto: "roto", sans-serif;
-}
-
-* {
-    font-family: var(--montserrat);
-    /* font-size: 18px; */
-}
-
-.centro {
-    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
-    height: 100%;
-}
-
-/* BOTOÕES */
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 168px;
-    height: 45px;
-    border-radius: 22px;
-}
-
-.btn.btn-rosa {
-    color: #FFF;
-    background-color: var(--color5);
-}
-
-.btn.btn-waze {
-    color: #FFF;
-    background-color: #0BAEDC;
-    font-weight: 600;
-}
-
-.btn.btn-google {
-    color: #FFF;
-    background-color: #511294;
-    font-weight: 600;
-}
-
-a {
-    text-decoration: none;
-}
-
-.logo__content {
-    color: var(--color5);
-}
-
-.logo__content p {
-    letter-spacing: 2px;
-}
-
-nav {
-    background-color: var(--color1);
-}
-
-.nav__links a {
-    width: auto;
-    color: var(--color8);
-}
-
-/* BANNER */
-
-.banner__text {
-    /* position: absolute; */
-    top: 50%;
-    /* left: 0; */
-    color: #FFF;
-    font-weight: 600;
-    font-size: 2.5vw;
-}
-
-.banner__text p:last-child {
-    background-color: var(--color8);
-}
-
-.banner__link {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.banner__link a {
-    color: #FFF;
-    background-color: var(--color8);
-    padding: .75em 4em;
-    border-radius: 20px;
-    font-size: 1vw;
-}
-  
-/* CARD */
-.custom__card {
-    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-.custom__card img {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    width: 100%;
-}
-
-.custom__card .title {
-    font-weight: bold;
-    color: var(--color2);
-}
-
-/* SOBRE */
-
-.sobre .titulo {
-    font-weight: bold;
-    color: var(--color2);
-}
-
-.sobre i {
-    color: var(--color3);
 }

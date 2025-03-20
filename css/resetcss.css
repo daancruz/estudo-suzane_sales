@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,17 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+* {
+    font-family: var(--montserrat);
+}
+
+.centro {
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
 }

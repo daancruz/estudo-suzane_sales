@@ -1,0 +1,17 @@
+/* NAVBAR */
+nav .logo {
+    color: var(--color5);
+}
+
+nav .logo p {
+    margin: 0;
+}
+
+nav .logo p:last-child {
+    letter-spacing: 2px;
+}
+
+nav .links a {
+    width: auto;
+    color: var(--color8);
+}

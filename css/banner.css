@@ -1,0 +1,25 @@
+/* BANNER */
+.banner .content {
+    top: 50%;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 2.5vw;
+}
+
+.banner .content p:last-child {
+    background-color: var(--color8);
+}
+
+.banner .link {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner .link a {
+    color: #FFF;
+    background-color: var(--color8);
+    padding: .25em 4em;
+    border-radius: 20px;
+}

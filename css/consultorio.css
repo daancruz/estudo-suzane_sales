@@ -1,0 +1,5 @@
+/* CONSULTORIO */
+.consultorio .titulo {
+    font-weight: bold;
+    color: var(--color2);
+}
