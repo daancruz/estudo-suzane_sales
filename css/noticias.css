@@ -1,18 +1,22 @@
 /* NOTICIAS */
-
-.noticias {
-    column-gap: 1em;
+.noticias .title {
+    color: var(--color2);
 }
 
-.noticias .card__custom {
+.noticias .custom__card {
     height: 400px;
     overflow: hidden;
     border-radius: 10px;
-
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
 }
 
-.noticias .content {
+.noticias .custom__card .content {
     bottom: 0;
     padding: 0 .25em;
+}
+
+.noticias .custom__card .title, .text {
     color: #FFF;
 }
