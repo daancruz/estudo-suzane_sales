@@ -1,3 +1,18 @@
-.noticias .title {
-    /* color: #FFF; */
+/* NOTICIAS */
+
+.noticias {
+    column-gap: 1em;
+}
+
+.noticias .card__custom {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.noticias .content {
+    bottom: 0;
+    padding: 0 .25em;
+    color: #FFF;
 }
