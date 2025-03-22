@@ -3,6 +3,11 @@
     color: var(--color2);
 }
 
+.noticias .swiper-slide {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
 .noticias .custom__card {
     height: 400px;
     overflow: hidden;
@@ -10,6 +15,13 @@
     box-sizing: border-box;
     background-position: center;
     background-size: cover;
+    transition: .3s;
+}
+
+.noticias .custom__card:hover {
+    transform: scale(1.05);
+    transition: .3s;
+    box-sizing: border-box;
 }
 
 .noticias .custom__card .content {
@@ -17,6 +29,11 @@
     padding: 0 .25em;
 }
 
-.noticias .custom__card .title, .text {
+.noticias .custom__card .title {
     color: #FFF;
+}
+
+.noticias .custom__card .text {
+    color: #FFF;
+    font-weight: 100;
 }
