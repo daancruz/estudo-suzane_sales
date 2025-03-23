@@ -1,6 +1,7 @@
 /* DEPOIMENTO */
 .sobre-depoimento > div {
     background-color: #FAFAFA;
+    border-radius: 20px;
 }
 
 .sobre-depoimento .intro {
