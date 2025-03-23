@@ -1,4 +1,4 @@
-# Clínica Suzana Sales
+# Clínica Suzane Sales
 ![BANNER-HOME](https://github.com/user-attachments/assets/6ad63542-7eed-469a-bebb-598290b92944)
 
 
@@ -27,4 +27,4 @@ Para visualizar e rodar o projeto localmente, siga estas etapas:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/daansmyth/clinica-suzana-sales.git
+   git clone https://github.com/daansmyth/clinica-suzane-sales.git
