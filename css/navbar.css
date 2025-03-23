@@ -1,17 +1,31 @@
 /* NAVBAR */
-nav .logo {
-    color: var(--color5);
+nav .container {
+    background-color: var(--color1);
 }
 
-nav .logo p {
-    margin: 0;
+nav .logo {
+    color: var(--color5);
 }
 
 nav .logo p:last-child {
     letter-spacing: 2px;
 }
 
+nav .logo:hover {
+    color: var(--color5);
+}
+
 nav .links a {
     width: auto;
     color: var(--color8);
+}
+
+.nav-link:hover {
+    color: var(--color2);
+}
+
+.navbar-toggler {
+    border: none;
+    color: transparent;
+    font-size: 1.5em;
 }
