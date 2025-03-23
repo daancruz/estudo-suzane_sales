@@ -17,8 +17,12 @@ O projeto Clínica Suzane Sales está em desenvolvimento e tem como objetivo pra
 
 Atualmente, o projeto está em fase de construção da interface, aplicando estilos e ajustando a responsividade com Bootstrap.
 
-## Capturas de Tela
+## Página inicial
 ![screencapture-127-0-0-1-5500-index-html-2025-03-22-23_44_04](https://github.com/user-attachments/assets/9e820517-9cd2-4090-9ccd-d8349abe8051)
+
+## Página Sobre
+![screencapture-127-0-0-1-5500-sobre-html-2025-03-23-11_53_52](https://github.com/user-attachments/assets/c4356a56-0ba6-4615-ad47-6aa94967caf9)
+
 
 
 ## Como Visualizar o Projeto
