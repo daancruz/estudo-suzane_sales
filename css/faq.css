@@ -1,0 +1,8 @@
+.faq .title {
+    color: var(--color2);
+    font-weight: 600;
+}
+
+.faq .text {
+    color: var(--color5);
+}

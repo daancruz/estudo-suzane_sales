@@ -1,6 +1,7 @@
 /* NOTICIAS */
 .noticias .title {
     color: var(--color2);
+    font-weight: 600;
 }
 
 .noticias .swiper-slide {
@@ -36,4 +37,9 @@
 .noticias .custom__card .text {
     color: #FFF;
     font-weight: 100;
+}
+
+.noticias .link {
+    text-decoration: none;
+    color: var(--color4);
 }

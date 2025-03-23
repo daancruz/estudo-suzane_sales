@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ESTILOS CSS */
+@import url('agendarConsulta.css');
 @import url('banner.css');
 @import url('buttons.css');
 @import url('consultas.css');
 @import url('consultorio.css');
+@import url('faq.css');
+@import url('footer.css');
 @import url('navbar.css');
 @import url('noticias.css');
 @import url('sobre.css');
@@ -21,6 +24,7 @@
     --color6: #0BAEDC;
     --color7: #511294;
     --color8: #85C2AD;
+    --color9: #C49395;
 
     --montserrat: "montserrat", sans-serif;
     --roboto: "roto", sans-serif;

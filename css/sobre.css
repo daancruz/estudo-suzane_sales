@@ -1,9 +1,5 @@
 /* SOBRE */
-.sobre .titulo {
+.sobre .title {
     font-weight: bold;
     color: var(--color2);
-}
-
-.sobre i {
-    color: var(--color3);
 }

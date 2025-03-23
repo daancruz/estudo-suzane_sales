@@ -1,0 +1,40 @@
+footer .row {
+    background-color: var(--color9);
+    /* height: 400px; */
+}
+
+footer .list .link {
+    color: #FFF;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+footer .text {
+    color: #FFF;
+    font-weight: 100;
+}
+
+footer .social .link {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+footer .instagram {
+    background-color: #FFF;
+    padding: .25em .45em .15em .45em;
+    border-radius: 50%;
+}
+
+footer .instagram .icon {
+    color: var(--color9);
+}
+
+footer:last-child {
+    font-weight: 300;
+}
+
+footer:last-child a {
+    color: #000;
+    text-decoration: none;
+}

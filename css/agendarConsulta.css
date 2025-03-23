@@ -1,0 +1,9 @@
+/* AGENDAR CONSULTA */
+.agendarConsulta .title {
+    color: var(--color2);
+    font-weight: 600;
+}
+
+.agendarConsulta .text {
+    color: var(--color4);
+}
