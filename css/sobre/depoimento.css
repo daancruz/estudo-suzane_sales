@@ -1,0 +1,12 @@
+/* DEPOIMENTO */
+.sobre-depoimento > div {
+    background-color: #FAFAFA;
+}
+
+.sobre-depoimento .intro {
+    color: var(--color9);
+}
+
+.sobre-depoimento .text {
+    color: var(--color4);
+}

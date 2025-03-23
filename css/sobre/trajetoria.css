@@ -1,0 +1,28 @@
+/* TRAJETÓRIA */
+.sobre-trajetoria .title {
+    color: var(--color2);
+    font-weight: 600;
+}
+
+.sobre-trajetoria .text {
+    color: var(--color9);
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.sobre-trajetoria .text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: var(--color9);
+    width: 25%;
+}
+
+.sobre-trajetoria .list {
+    list-style: disc;
+    color: var(--color4);
+    font-weight: 300;
+}

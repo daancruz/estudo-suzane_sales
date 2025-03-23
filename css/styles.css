@@ -2,16 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ESTILOS CSS */
-@import url('agendarConsulta.css');
-@import url('banner.css');
+@import url('home/agendarConsulta.css');
+@import url('home/banner.css');
 @import url('buttons.css');
-@import url('consultas.css');
-@import url('consultorio.css');
-@import url('faq.css');
+@import url('home/consultas.css');
+@import url('home/consultorio.css');
+@import url('home/faq.css');
 @import url('footer.css');
 @import url('navbar.css');
-@import url('noticias.css');
-@import url('sobre.css');
+@import url('home/noticias.css');
+@import url('home/sobre.css');
+    /* SOBRE */
+    @import url('sobre/banner.css');
+    @import url('sobre/bio.css');
+    @import url('sobre/depoimento.css');
+    @import url('sobre/trajetoria.css');
 
 :root {
 

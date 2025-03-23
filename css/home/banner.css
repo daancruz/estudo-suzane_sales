@@ -21,8 +21,9 @@
     transform: translateX(-50%);
 }
 
-.banner .link a {
+.banner .link {
     color: #FFF;
+    text-decoration: none;
     background-color: var(--color8);
     padding: .25em 4em;
     border-radius: 20px;

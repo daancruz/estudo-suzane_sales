@@ -7,8 +7,9 @@ nav .logo {
     color: var(--color5);
 }
 
-nav .logo p:last-child {
+nav .logo:last-child {
     letter-spacing: 2px;
+    font-weight: 200;
 }
 
 nav .logo:hover {

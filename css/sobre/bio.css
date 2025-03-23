@@ -1,0 +1,9 @@
+/* BIO */
+.sobre-bio .title {
+    color: var(--color2);
+    font-weight: 600;
+}
+
+.sobre-bio .text {
+    color: var(--color3);
+}
