@@ -1,0 +1,14 @@
+/* BANNER */
+.faq-banner {
+    background-color: var(--color8);
+    /* height: 400px; */
+    margin-top: 70px;
+}
+
+.faq-banner .title {
+    color: var(--color2);
+}
+
+.faq-banner .text {
+    color: #FFF;
+}

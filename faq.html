@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Suzane Sales</title>
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="css/resetcss.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="js/swiper.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="container shadow d-flex flex-column gap-5 p-0">
+
+    <!-- HEADER -->
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md fixed-top p-0">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <p class="logo mb-0">Dra.</p>
+                    <h1 class="logo mb-0">Suzane Sales</h1>
+                    <p class="logo mb-0">Pediatria e nefrologia pediátrica</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="links navbar-nav">
+                        <a class="nav-link" href="/sobre.html">Sobre</a>
+                        <a class="nav-link" href="/faq.html">Perguntas Frequentes</a>
+                        <a class="nav-link" href="#">Notícias e Conteúdo</a>
+                        <a class="nav-link" href="#">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container d-flex flex-column p-0 gap-5">
+        <!-- BANNER -->
+        <section class="faq-banner position-relative container-fluid d-flex flex-column align-items-center py-5">
+            <div class="d-flex justify-content-center gap-3">
+                <img src="img/faq/bebe1.png" alt="Desenho de um bêbe">
+                <img src="img/faq/bebe2.png" alt="Desenho de um bêbe">
+                <img src="img/faq/bebe3.png" alt="Desenho de um bêbe">
+                <img src="img/faq/bebe4.png" alt="Desenho de um bêbe">
+            </div>
+            <div
+                class="content col-12 col-md-6 d-flex flex-column align-items-center text-center">
+                <p class="text mt-3">Perguntas Frequentes</p>
+                <h4 class="title">O IDEAL É LEVAR O SEU BEBÊ AO PEDIATRA LOGO NA PRIMEIRA SEMANA DE VIDA!</h4>
+                <p class="text">Vem ver outras respostas que podem te interessar</p>
+            </div>
+        </section>
+
+        <!-- PERGUNTAS FREQUENTES -->
+        <section class="faq-perguntas container d-flex justify-content-center">
+            <div class="col-12 col-md-10 accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseUm" aria-expanded="true" aria-controls="collapseUm">
+                            Como posso saber se o meu bebê se alimenta corretamente?
+                        </button>
+                    </h2>
+                    <div id="collapseUm" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Observe se o bebê está ganhando peso e fazendo xixi e cocô regularmente. Além disso, o pediatra irá avaliar o desenvolvimento do seu filho nas consultas de acompanhamento.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDois" aria-expanded="false" aria-controls="collapseDois">
+                            Como aliviar a cólica do meu bebê?
+                        </button>
+                    </h2>
+                    <div id="collapseDois" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+                            Qual a melhor forma de higienizar o umbigo do recém-nascido?
+                        </button>
+                    </h2>
+                    <div id="collapseTres" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseQuatro" aria-expanded="false" aria-controls="collapseQuatro">
+                            Como aliviar o desconforto pelos primeiros dentinhos do meu filho?
+                        </button>
+                    </h2>
+                    <div id="collapseQuatro" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
+                            Meu filho está com febre. O que eu faço?
+                        </button>
+                    </h2>
+                    <div id="collapseCinco" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis">
+                            O que eu faço para evitar que meu filho fique doente?
+                        </button>
+                    </h2>
+                    <div id="collapseSeis" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSete" aria-expanded="false" aria-controls="collapseSete">
+                            Quando devo iniciar a introdução alimentar do meu bebê?
+                        </button>
+                    </h2>
+                    <div id="collapseSete" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOito" aria-expanded="false" aria-controls="collapseOito">
+                            Como posso ajudar meu filho a dormir melhor durante a noite?
+                        </button>
+                    </h2>
+                    <div id="collapseOito" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseNove" aria-expanded="false" aria-controls="collapseNove">
+                            Qual a importância das consultas de acompanhamento e vacinação para o meu filho?
+                        </button>
+                    </h2>
+                    <div id="collapseNove" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                            does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOTICIAS -->
+        <section class="faq-noticias noticias container-fluid">
+            <h4 class="title text-center m-4">NOTÍCIAS E CONTEÚDO</h4>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide">
+                        <div class="custom__card" style="background-image: url(img/noticia1.png);">
+                            <div class="content card-overlay position-absolute bottom-0 px-3">
+                                <h6 class="title">Quais os primeiros cuidados com o recém-nascido?</h6>
+                                <p class="text">6 dicas especiais do dia a dia para seu filho ficar mais seguro e
+                                    tranquilo.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="swiper-slide">
+                        <div class="custom__card" style="background-image: url(img/noticia2.png);">
+                            <div class="content card-overlay position-absolute bottom-0 px-3">
+                                <h6 class="title">Qual a importância das brincadeiras para desenvolver o meu filho?</h6>
+                                <p class="text">Saiba como as brincadeiras são fundamentais aos pequenos.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="swiper-slide">
+                        <div class="custom__card" style="background-image: url(img/noticia3.png);">
+                            <div class="content card-overlay position-absolute bottom-0 px-3">
+                                <h6 class="title">Como lidar com as birras e emoções das crianças?</h6>
+                                <p class="text">Veja algumas dicas para lidar com esta situação.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="swiper-slide">
+                        <div class="custom__card" style="background-image: url(img/noticia4.png);">
+                            <div class="content card-overlay position-absolute bottom-0 px-3">
+                                <h6 class="title">De que forma a rotina desenvolve os pequenos?</h6>
+                                <p class="text">Saiba por que a rotina é fundamental ao crescimento saudável das
+                                    crianças.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="custom__card" style="background-image: url(img/noticia5.png);">
+                            <div class="content card-overlay position-absolute bottom-0 px-3">
+                                <h6 class="title">Como estimular a autonomia infantil?</h6>
+                                <p class="text">Incentivar a autonomia é importante. Veja algumas dicas do que fazer.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-3">
+                <a class="link" href="#">Ver todas</a>
+                <i class="bi bi-arrow-right ms-2"></i>
+            </div>
+        </section>
+        
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <div class="row p-3" style="background-image: url(img/footer-fundo.svg);">
+                <div class="col-12 d-flex align-items-center justify-content-center my-3">
+                    <img src="img/suzane-sales.png" alt="Doutora Suzane Sales Pediatria e nefrologia pediátrica">
+                </div>
+
+                <div class="col-12 col-md-5 d-flex p-0 p-md-1 justify-content-center justify-content-md-start">
+                    <ul class="list d-flex flex-column p-0">
+                        <li class="item">
+                            <a class="link" href="/">Home</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="/sobre.html">Sobre</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="">O Consultório</a>
+                        </li>
+                    </ul>
+                    <ul class="list d-flex flex-column gap-1">
+                        <li class="item">
+                            <a class="link" href="/faq.html">Perguntas Frequentes</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="">Noticias e Conteúdo</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-7 d-flex flex-column flex-md-row p-0 gap-3 gap-md-0">
+                    <div class="col-12 col-md-5 d-flex d-md-block justify-content-center">
+                        <img class="img-fluid" src="img/footer-image.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-7 d-flex flex-column ps-3">
+                        <p class="text">Consultório particular</p>
+                        <p class="text">Av. Senador Vergueiro,2123 - São Bernardo do Campo - 16º. Andar - Sala 1605 |
+                            CEP 09601-000 | Tel: 11 91057.8890</p>
+                        <div class="d-flex d-md-block flex-column align-items-center align-items-md-start">
+                            <p class="text"><strong>Veja como chegar</strong></p>
+                            <div class="d-flex gap-2">
+                                <a href="" class="btn btn-rosa">Waze</a>
+                                <a href="" class="btn btn-rosa">Google maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social col-12 d-flex justify-content-center">
+                    <a class="link d-flex w-auto align-items-center justify-content-center gap-1 mt-4"
+                        href="https://instagram.com/">
+                        Siga nosso Instagram |
+                        <div class="instagram">
+                            <i class="icon bi bi-instagram"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p class="text-center py-2 m-0">&copy; 2023 Direitos Reservados - Termos de Uso - Política de Privacidade |
+                Criado por: <a href="http://amzmp.com.br/" target="_blank" rel="noopener noreferrer">amz|mp</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>

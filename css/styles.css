@@ -17,6 +17,11 @@
     @import url('sobre/bio.css');
     @import url('sobre/depoimento.css');
     @import url('sobre/trajetoria.css');
+    /* FAQ */
+    @import url('faq/banner.css');
+    @import url('faq/perguntas.css');
+    @import url('faq/noticias.css');
+    
 
 :root {
 
