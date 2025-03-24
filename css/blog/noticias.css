@@ -1,0 +1,27 @@
+/* NOTICIAS */
+.blog-noticias .custom__card {
+    height: 400px;
+    border-radius: 15px;
+}
+
+.blog-noticias .custom__card img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    object-position: top;
+}
+
+.blog-noticias .custom__card .title {
+    font-weight: 500;
+}
+
+.blog-noticias .custom__card .text {
+    font-weight: 300;
+}
+
+.blog-noticias .custom__card .link {
+    color: var(--color2);
+    text-decoration: none;
+    left: 50%;
+    transform: translateX(-50%);
+}

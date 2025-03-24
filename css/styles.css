@@ -21,7 +21,9 @@
     @import url('faq/banner.css');
     @import url('faq/perguntas.css');
     @import url('faq/noticias.css');
-    
+    /* BLOG */
+    @import url('blog/banner.css');
+    @import url('blog/noticias.css');
 
 :root {
 

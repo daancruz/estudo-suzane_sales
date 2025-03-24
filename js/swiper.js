@@ -1,3 +1,4 @@
+// SWIPER HOME PAGE
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: false,

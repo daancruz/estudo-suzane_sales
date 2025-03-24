@@ -1,0 +1,14 @@
+/* BANNER */
+.blog-banner {
+    background-color: var(--color9);
+    margin-top: 70px;
+}
+
+.blog-banner .title {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.blog-banner .text {
+    color: #FFF;
+}
