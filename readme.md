@@ -23,6 +23,9 @@ Atualmente, o projeto está em fase de construção da interface, aplicando esti
 ## Página Sobre
 ![screencapture-127-0-0-1-5500-sobre-html-2025-03-23-11_53_52](https://github.com/user-attachments/assets/c4356a56-0ba6-4615-ad47-6aa94967caf9)
 
+## Página FAQ
+![screencapture-127-0-0-1-5500-faq-html-2025-03-23-22_06_30](https://github.com/user-attachments/assets/8d1c79e0-cc38-400d-92bb-cbd00bc0c7e8)
+
 
 
 ## Como Visualizar o Projeto
