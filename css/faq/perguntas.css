@@ -1,1 +1,22 @@
 /* PERGUNTAS FREQUENTES */
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.accordion-button {
+    color: #a8a8a8;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--color2);
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.accordion-body {
+    color: var(--color3);
+}

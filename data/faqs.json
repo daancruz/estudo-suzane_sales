@@ -1,0 +1,47 @@
+[
+    {
+        "id":"0",
+        "question":"Como posso saber se o meu bebê se alimenta corretamente?",
+        "answer":"Observe se o bebê está ganhando peso e fazendo xixi e cocô regularmente. Além disso, o pediatra irá avaliar o desenvolvimento do seu filho nas consultas de acompanhamento."
+    },
+    {
+        "id": "1",
+        "question": "Como aliviar a cólica do meu bebê?",
+        "answer": "Para aliviar a cólica do bebê, você pode tentar massagear suavemente a barriga em movimentos circulares, fazer exercícios de dobrar as perninhas em direção à barriga, oferecer um banho morno ou um ambiente tranquilo. Além disso, verifique a pega correta na amamentação para evitar a ingestão de ar."
+    },
+    {
+        "id": "2",
+        "question": "Qual a melhor forma de higienizar o umbigo do recém-nascido?",
+        "answer": "A higienização do umbigo deve ser feita com álcool 70% e uma gaze esterilizada, limpando delicadamente ao redor do coto umbilical até que ele caia naturalmente. Mantenha a área sempre seca e arejada, evitando cobri-la com fraldas ou roupas apertadas."
+    },
+    {
+        "id": "3",
+        "question": "Como aliviar o desconforto pelos primeiros dentinhos do meu filho?",
+        "answer": "Para aliviar o desconforto da dentição, ofereça mordedores gelados, massageie a gengiva do bebê com o dedo limpo ou um pano úmido, e, se necessário, consulte um pediatra sobre o uso de analgésicos específicos para bebês."
+    },
+    {
+        "id": "4",
+        "question": "Meu filho está com febre. O que eu faço?",
+        "answer": "Se seu filho estiver com febre, mantenha-o hidratado, ofereça roupas leves e faça compressas mornas para ajudar a reduzir a temperatura. Caso a febre ultrapasse 38,5°C ou persista por mais de 48 horas, consulte um pediatra para avaliação."
+    },
+    {
+        "id": "5",
+        "question": "O que eu faço para evitar que meu filho fique doente?",
+        "answer": "Para evitar doenças, mantenha a vacinação em dia, incentive bons hábitos de higiene como lavar as mãos, ofereça uma alimentação equilibrada e garanta que ele tenha um ambiente limpo e arejado. Evite contato com pessoas doentes e exponha-o ao sol regularmente para fortalecer a imunidade."
+    },
+    {
+        "id": "6",
+        "question": "Quando devo iniciar a introdução alimentar do meu bebê?",
+        "answer": "A introdução alimentar deve começar por volta dos 6 meses de idade, conforme recomendação da Organização Mundial da Saúde. Nessa fase, ofereça alimentos amassados ou em pedaços pequenos, priorizando frutas, legumes e proteínas, sempre respeitando os sinais de fome e saciedade do bebê."
+    },
+    {
+        "id": "7",
+        "question": "Como posso ajudar meu filho a dormir melhor durante a noite?",
+        "answer": "Crie uma rotina de sono com horários regulares, evite estímulos fortes antes de dormir, ofereça um ambiente tranquilo e confortável, e associe o momento do sono a rituais relaxantes como banho morno e histórias calmas. Evite telas e excesso de luz no período noturno."
+    },
+    {
+        "id": "8",
+        "question": "Qual a importância das consultas de acompanhamento e vacinação para o meu filho?",
+        "answer": "As consultas de acompanhamento permitem monitorar o crescimento e desenvolvimento do bebê, prevenindo e identificando precocemente possíveis problemas de saúde. Já a vacinação é essencial para protegê-lo contra doenças graves, garantindo uma imunização eficaz e segura."
+    }
+]

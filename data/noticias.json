@@ -1,0 +1,37 @@
+[
+    {
+        "id":"0",
+        "image":"img/noticia",
+        "title":"Quais os primeiros cuidados com o recém-nascido?",
+        "subtitle":"6 dicas especiais do dia a dia para seu filho ficar mais seguro e tranquilo.",
+        "content":""
+    },
+    {
+        "id":"1",
+        "image":"img/noticia",
+        "title":"Qual a importância das brincadeiras para desenvolver o meu filho?",
+        "subtitle":"Saiba como as brincadeiras são fundamentais aos pequenos.",
+        "content":""
+    },
+    {
+        "id":"2",
+        "image":"img/noticia",
+        "title":"Como lidar com as birras e emoções das crianças?",
+        "subtitle":"Veja algumas dicas para lidar com esta situação.",
+        "content":""
+    },
+    {
+        "id":"3",
+        "image":"img/noticia",
+        "title":"De que forma a rotina desenvolve os pequenos?",
+        "subtitle":"Saiba por que a rotina é fundamental ao crescimento saudável das crianças.",
+        "content":""
+    },
+    {
+        "id":"4",
+        "image":"img/noticia",
+        "title":"Como estimular a autonomia infantil?",
+        "subtitle":"Incentivar a autonomia é importante. Veja algumas dicas do que fazer.",
+        "content":""
+    }
+]
