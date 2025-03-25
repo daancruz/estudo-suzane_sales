@@ -1,10 +1,14 @@
-# Clínica Suzane Sales
+# Projeto Front-End - Teste de Desenvolvimento
 ![BANNER-HOME](https://github.com/user-attachments/assets/6ad63542-7eed-469a-bebb-598290b92944)
 
 
-## Sobre o Projeto
+## Clínica Suzane Sales
 
-O projeto Clínica Suzane Sales está em desenvolvimento e tem como objetivo praticar a criação de uma plataforma web responsiva utilizando diversas tecnologias. A aplicação está sendo desenvolvida utilizando as seguintes tecnologias:
+Este projeto foi desenvolvido como parte de um teste técnico para uma posição de front-end. O objetivo é implementar uma interface de usuário com base em um protótipo desenvolvido no Adobe XD, seguindo as diretrizes de design e funcionalidade apresentadas.
+
+A estrutura do projeto foi construída para replicar o visual e comportamento do protótipo, garantindo uma experiência de usuário coerente com a proposta original.
+
+## Tecnologias Utilizadas
 
 - HTML
 - CSS
