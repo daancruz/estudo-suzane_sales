@@ -8,5 +8,5 @@ document.body.appendChild(loading)
 window.addEventListener('load', () => {
     setTimeout(() => {
         loading.style.display = 'none'
-    }, 5000)
+    }, 2000)
 });
