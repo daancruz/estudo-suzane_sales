@@ -10,7 +10,7 @@ O projeto Clínica Suzane Sales está em desenvolvimento e tem como objetivo pra
 - CSS
 - Bootstrap
 - Bootstrap Icons
-- JS <img src="https://img.shields.io/badge/NEW-brightgreen" width="20">
+- JavaScript <img src="https://img.shields.io/badge/NEW-brightgreen" width="20">
 - Swiper <img src="https://img.shields.io/badge/NEW-brightgreen" width="20">
 - Responsividade (Mobile First) <img src="https://img.shields.io/badge/NEW-brightgreen" width="20">
 
@@ -26,10 +26,12 @@ O projeto agora conta com um arquivo .js responsável por requisitar dados de um
 ![screencapture-127-0-0-1-5500-sobre-html-2025-03-23-11_53_52](https://github.com/user-attachments/assets/c4356a56-0ba6-4615-ad47-6aa94967caf9)
 
 ## Página FAQ
-![screencapture-127-0-0-1-5500-faq-html-2025-03-23-22_06_30](https://github.com/user-attachments/assets/8d1c79e0-cc38-400d-92bb-cbd00bc0c7e8)
+![screencapture-127-0-0-1-5500-faq-html-2025-03-25-14_29_48](https://github.com/user-attachments/assets/223da540-ba69-421d-a731-8cf9394dac9d)
+
 
 ## Página Blog
-![screencapture-127-0-0-1-5500-faq-html-2025-03-23-22_06_30](https://github.com/user-attachments/assets/156ff5d8-ca59-44d2-8b2e-87cc29aefc6d)
+![screencapture-127-0-0-1-5500-blog-html-2025-03-25-14_32_06](https://github.com/user-attachments/assets/c30f3079-4cde-4834-8eec-dadb4f5241df)
+
 
 
 ## Como Visualizar o Projeto
