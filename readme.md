@@ -32,6 +32,13 @@ O projeto agora conta com um arquivo .js responsável por requisitar dados de um
 ## Página Blog
 ![screencapture-127-0-0-1-5500-blog-html-2025-03-25-14_32_06](https://github.com/user-attachments/assets/c30f3079-4cde-4834-8eec-dadb4f5241df)
 
+## ⚠️ Aviso de Direitos  
+
+**🚨 Este projeto é desenvolvido exclusivamente para fins educacionais e sem intenção comercial.**  
+**📌 Todas as marcas, logotipos e nomes mencionados ou utilizados no projeto são de propriedade de seus respectivos detentores de direitos.**  
+
+Caso haja qualquer problema relacionado ao uso de alguma marca, por favor, entre em contato para que eu possa tomar as medidas necessárias.  
+
 
 
 ## Como Visualizar o Projeto
