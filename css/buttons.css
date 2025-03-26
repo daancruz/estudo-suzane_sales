@@ -24,3 +24,8 @@
     background-color: #511294;
     font-weight: 600;
 }
+
+.btn.btn-verde {
+    color: #FFF;
+    background-color: var(--color8);
+}

@@ -1,0 +1,14 @@
+.detalhes-banner {
+    background-size: cover;
+    height: 400px;
+}
+
+.detalhes-banner .content {
+    top: 40%;
+    left: 4em;
+}
+
+.detalhes-banner .content .title {
+    color: #FFF;
+
+}

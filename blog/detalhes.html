@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Suzane Sales</title>
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="../css/resetcss.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- <script src="../js/noticias.js" defer></script> -->
+    <script src="../js/noticias-detalhes.js" defer></script>
+    <script src="../js/loading.js" defer></script>
+</head>
+
+<body class="container shadow d-flex flex-column gap-5 p-0">
+
+    <!-- HEADER -->
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md fixed-top p-0">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <p class="logo mb-0">Dra.</p>
+                    <h1 class="logo mb-0">Suzane Sales</h1>
+                    <p class="logo mb-0">Pediatria e nefrologia pediátrica</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="links navbar-nav">
+                        <a class="nav-link" href="/sobre.html">Sobre</a>
+                        <a class="nav-link" href="/faq.html">Perguntas Frequentes</a>
+                        <a class="nav-link" href="/blog.html">Notícias e Conteúdo</a>
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container d-flex flex-column p-0 gap-5">
+        <!-- BANNER -->
+        <section class="detalhes-banner position-relative container-fluid d-flex flex-column align-items-center py-5 gap-3" style="background-image: url(../img/noticia0.png);">
+            <div class="content col-10 col-md-4 d-flex flex-column position-absolute gap-3">
+                <a class="btn btn-verde" href="/blog.html">Voltar</a>
+                <h4 class="title m-0">QUAL A IMPORTÂNCIA DAS BRINCADEIRAS INFANTIS PARA DESENVOLVER O MEU FILHO?</h4>
+            </div>
+        </section>
+
+        <!-- NOTICIA -->
+        <div id="detalhes">
+            <h1>Detalhes da Notícia</h1>
+            <div id="conteudo"></div> <!-- Aqui serão exibidos os detalhes -->
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container-fluid" id="contato">
+            <div class="row p-3" style="background-image: url(../img/footer-fundo.svg);">
+                <div class="col-12 d-flex align-items-center justify-content-center my-3">
+                    <img src="../img/suzane-sales.png" alt="Doutora Suzane Sales Pediatria e nefrologia pediátrica">
+                </div>
+
+                <div class="col-12 col-md-5 d-flex p-0 p-md-1 justify-content-center justify-content-md-start">
+                    <ul class="list d-flex flex-column p-0">
+                        <li class="item">
+                            <a class="link" href="/">Home</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="/sobre.html">Sobre</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="">O Consultório</a>
+                        </li>
+                    </ul>
+                    <ul class="list d-flex flex-column gap-1">
+                        <li class="item">
+                            <a class="link" href="/faq.html">Perguntas Frequentes</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="">Noticias e Conteúdo</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-7 d-flex flex-column flex-md-row p-0 gap-3 gap-md-0">
+                    <div class="col-12 col-md-5 d-flex d-md-block justify-content-center">
+                        <img class="img-fluid" src="../img/footer-image.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-7 d-flex flex-column ps-3">
+                        <p class="text">Consultório particular</p>
+                        <p class="text">Av. Senador Vergueiro,2123 - São Bernardo do Campo - 16º. Andar - Sala 1605 |
+                            CEP 09601-000 | Tel: 11 91057.8890</p>
+                        <div class="d-flex d-md-block flex-column align-items-center align-items-md-start">
+                            <p class="text"><strong>Veja como chegar</strong></p>
+                            <div class="d-flex gap-2">
+                                <a href="" class="btn btn-rosa">Waze</a>
+                                <a href="" class="btn btn-rosa">Google maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social col-12 d-flex justify-content-center">
+                    <a class="link d-flex w-auto align-items-center justify-content-center gap-1 mt-4"
+                        href="https://instagram.com/">
+                        Siga nosso Instagram |
+                        <div class="instagram">
+                            <i class="icon bi bi-instagram"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p class="text-center py-2 m-0">&copy; 2023 Direitos Reservados - Termos de Uso - Política de Privacidade |
+                Criado por: <a href="http://amzmp.com.br/" target="_blank" rel="noopener noreferrer">amz|mp</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>

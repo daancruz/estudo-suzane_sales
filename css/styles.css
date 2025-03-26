@@ -24,6 +24,7 @@
     /* BLOG */
     @import url('blog/banner.css');
     @import url('blog/noticias.css');
+    @import url('blog/detalhes.css');
 
 :root {
 

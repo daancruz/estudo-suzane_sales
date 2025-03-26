@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(dados => {
         const section = document.querySelector("#noticias");
         
+        // DADOS DOS CARDS
         dados.forEach(dado => {
             const divCol = document.createElement("div");
 
@@ -13,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (path === "/" || path.endsWith("/index.html") || path === "/faq.html") {
                 divCol.className = "swiper-slide";
                 divCol.innerHTML = `
-                    <a href="#" class="swiper-slide" id="${dado.id}">
+                    <a href="/blog/detalhes/${dado.id}" class="swiper-slide" id="${dado.id}">
                         <div class="custom__card" style="background-image: url(img/noticia${dado.id}.png);">
                             <div class="content card-overlay position-absolute bottom-0 px-3">
                                 <h6 class="title">${dado.title}</h6>
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h6 class="title">${dado.title}</h6>
                             <p class="text">${dado.subtitle}</p>
                         </div>
-                        <a class="link position-absolute bottom-0 my-3" href="#">Ler mais</a>
+                        <a class="link position-absolute bottom-0 my-3" href="/blog/detalhes.html?id=${dado.id}">Ler mais</a>
                     </div>
                 `;
                 section.appendChild(divCol);
