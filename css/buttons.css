@@ -6,6 +6,7 @@
     width: 168px;
     height: 45px;
     border-radius: 22px;
+    font-size: 1em;
 }
 
 .btn.btn-rosa {
@@ -28,4 +29,13 @@
 .btn.btn-verde {
     color: #FFF;
     background-color: var(--color8);
+}
+
+@media (max-width: 767px) {
+    .btn {
+        font-size: .8em;
+        width: 138px;
+        height: 35px;
+        border-radius: 22px;
+    }
 }

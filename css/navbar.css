@@ -30,3 +30,9 @@ nav .links a {
     color: transparent;
     font-size: 1.5em;
 }
+
+@media (max-width: 767px) {
+    nav .logo:last-child {
+        letter-spacing: 1px;
+    }
+}
