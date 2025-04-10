@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", () => {
             };
         });
     })
-    .catch(error => console.log("Erro ao tentar obter os dados"))
+    .catch(error => console.log("Erro ao tentar obter os dados", error))
 });

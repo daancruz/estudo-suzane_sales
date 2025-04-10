@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const id = urlParams.get('id');
 
     if(id) {
-        fetch('../data/noticias.json')
+        fetch('data/noticias.json')
         .then(res => res.json())
         .then(dados => {
             const noticia = dados.find(dado => dado.id == id);
@@ -22,6 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("conteudo").innerHTML = "<p>Notícia não encontrada.</p>";
             }
         })
-        .catch(error => console.error("Erro ao carregar o conteúdo: ", error));
+        .catch(error => console.error("Erro ao carregar o conteúdo: ", error))
     };
 });
