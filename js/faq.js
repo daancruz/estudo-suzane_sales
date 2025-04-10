@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         dados.forEach(dado => {
             const divCol = document.createElement("div");
 
-            if(path === "/estudo-suzane-sales/faq.html") {
+            // if(path === "/estudo-suzane-sales/faq.html") {
                 divCol.className = "accordion-item"
                 divCol.innerHTML = `
                     <h2 class="accordion-header">
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 `
                 section.appendChild(divCol);
-            };
+            // };
         });
     })
     .catch(error => console.log("Erro ao tentar obter os dados", error))

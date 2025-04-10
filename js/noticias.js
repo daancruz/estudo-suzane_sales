@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const divCol = document.createElement("div");
 
             // NOTICIAS DA HOME
-            if (path === "/estudo-suzane-sales" || path === "/estudo-suzane-sales/" || path.endsWith("/estudo-suzane-sales/index.html") || path.endsWith("/estudo-suzane-sales/faq.html")) {
+            // if (path === "/" || path === "" || path.endsWith("/index.html") || path.endsWith("/faq.html")) {
                 divCol.className = "swiper-slide";
                 divCol.innerHTML = `
                     <a href="/estudo-suzane_sales/blog/detalhes/${dado.id}" class="swiper-slide" id="${dado.id}">
@@ -24,23 +24,23 @@ document.addEventListener("DOMContentLoaded", () => {
                     </a>
                 `
                 section.appendChild(divCol);
-            }
+            // }
 
             // NOTICIAS DO BLOG
-            if (path === "/estudo-suzane-sales/blog.html") {
-                divCol.className = "col-12 col-md-4";
-                divCol.innerHTML = `
-                    <div class="custom__card position-relative shadow p-0" id="${dado.id}">
-                        <img class="img-fluid" src="img/noticia${dado.id}.png" alt="${dado.title}">
-                        <div class="content px-2 mt-2">
-                            <h6 class="title">${dado.title}</h6>
-                            <p class="text">${dado.subtitle}</p>
-                        </div>
-                        <a class="link position-absolute bottom-0 my-3" href="/estudo-suzane_sales/blog/detalhes.html?id=${dado.id}">Ler mais</a>
-                    </div>
-                `;
-                section.appendChild(divCol);
-            }
+            // if (path === "/blog.html") {
+            //     divCol.className = "col-12 col-md-4";
+            //     divCol.innerHTML = `
+            //         <div class="custom__card position-relative shadow p-0" id="${dado.id}">
+            //             <img class="img-fluid" src="img/noticia${dado.id}.png" alt="${dado.title}">
+            //             <div class="content px-2 mt-2">
+            //                 <h6 class="title">${dado.title}</h6>
+            //                 <p class="text">${dado.subtitle}</p>
+            //             </div>
+            //             <a class="link position-absolute bottom-0 my-3" href="/estudo-suzane_sales/blog/detalhes.html?id=${dado.id}">Ler mais</a>
+            //         </div>
+            //     `;
+            //     section.appendChild(divCol);
+            // }
         });
     })
     .catch(error => console.error("Erro ao carregar o conteúdo: ", error))
