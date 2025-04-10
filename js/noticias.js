@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const divCol = document.createElement("div");
 
             // NOTICIAS DA HOME
-            if (path === "/" || path.endsWith("/index.html") || path.endsWith === "/faq.html") {
+            if (path === "/" || path.endsWith("/index.html") || path.endsWith("/faq.html")) {
                 divCol.className = "swiper-slide";
                 divCol.innerHTML = `
                     <a href="/estudo-suzane_sales/blog/detalhes/${dado.id}" class="swiper-slide" id="${dado.id}">
