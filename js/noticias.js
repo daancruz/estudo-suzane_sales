@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const path = window.location.pathname;
 
-    fetch("/estudo-suzane_sales/data/noticias.json")
+    fetch("data/noticias.json")
         .then(res => res.json())
         .then(dados => {
         const section = document.querySelector("#noticias");
