@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         dados.forEach(dado => {
             const divCol = document.createElement("div");
 
-            if(path === "/faq.html") {
+            if(path === "/estudo-suzane-sales/faq.html") {
                 divCol.className = "accordion-item"
                 divCol.innerHTML = `
                     <h2 class="accordion-header">

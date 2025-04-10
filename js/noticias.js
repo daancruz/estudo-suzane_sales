@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const divCol = document.createElement("div");
 
             // NOTICIAS DA HOME
-            if (path === "/" || path === "" || path.endsWith("/index.html") || path.endsWith("/faq.html")) {
+            if (path === "/estudo-suzane-sales" || path === "/estudo-suzane-sales/" || path.endsWith("/estudo-suzane-sales/index.html") || path.endsWith("/estudo-suzane-sales/faq.html")) {
                 divCol.className = "swiper-slide";
                 divCol.innerHTML = `
                     <a href="/estudo-suzane_sales/blog/detalhes/${dado.id}" class="swiper-slide" id="${dado.id}">
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             // NOTICIAS DO BLOG
-            if (path === "/blog.html") {
+            if (path === "/estudo-suzane-sales/blog.html") {
                 divCol.className = "col-12 col-md-4";
                 divCol.innerHTML = `
                     <div class="custom__card position-relative shadow p-0" id="${dado.id}">
