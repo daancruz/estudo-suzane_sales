@@ -51,4 +51,4 @@ Para visualizar e rodar o projeto localmente, siga estas etapas:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/daansmyth/clinica-suzane-sales.git
+   git clone https://github.com/daancruz/clinica-suzane-sales.git
